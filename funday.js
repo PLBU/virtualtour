@@ -4,7 +4,7 @@ var panoramaService;
 var streetView;
 
 function initialize() {
-
+	
   var panoOptions = {
     pano: 'L4WNkSLF-mB52zujd2oR6g',
     pov: {
@@ -18,10 +18,14 @@ function initialize() {
   var infowindow = new google.maps.InfoWindow();
   var marker, i;
   var markers = [];
+  
+  // Add Locations HERE (Can also add icons on each marker, to be added)
+  // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
     ['<div style="width: 170px;">meet.google.com/haha-haha</div>', -6.878710, 107.612570],
 	['<div style="width: 170px;">meet.google.com/hehe-hehe</div>', -6.893248, 107.610424]
   ];
+
 
   for (i = 0; i < locations.length; i++) {
     marker = new google.maps.Marker({
@@ -30,6 +34,7 @@ function initialize() {
       visible: false,
       zIndex: 999,
       zoomControl: false
+	  //icon: locations[i][3]
     });
 
     google.maps.event.addListener(marker, 'mouseover', (function(marker, i) {
