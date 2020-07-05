@@ -23,7 +23,7 @@ function initialize() {
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
     ['<div style="width: 170px;">meet.google.com/haha-haha</div>', -6.878710, 107.612570],
-	['<div style="width: 170px;">meet.google.com/hehe-hehe</div>', -6.893248, 107.610424]
+  ['<div style="width: 170px;">meet.google.com/hehe-hehe</div>', -6.893248, 107.610424]
   ];
 
 

@@ -1,7 +1,66 @@
-      html,
-      body,
-      #funday {
-        height: 100%;
-        margin: 0px;
-        padding: 0px
-      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+#funday {
+  height: 100vh;
+  width: 100%;
+}
+
+#info {
+  width: 600px;
+  padding: 20px;
+  background-color: rgb(252, 250, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.decoration {
+  width: 20%;
+  background-color: #FFC300;
+  height: 4px;
+  border: none;
+}
+
+.text {
+  margin-top: 20px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.bright {
+  color: #FFC300;
+}
+
+#links {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.link-item a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #e9b405;
+}
+
+.link-item a:hover {
+  color: #FFC300;
+}
+
+
