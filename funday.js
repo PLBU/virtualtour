@@ -22,8 +22,14 @@ function initialize() {
   // Add Locations HERE (Can also add icons on each marker, to be added)
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
-    ['<div style="width: 170px;">meet.google.com/haha-haha</div>', -6.878710, 107.612570],
-  ['<div style="width: 170px;">meet.google.com/hehe-hehe</div>', -6.893248, 107.610424]
+    ['<div style="width: 170px;">POS SADIKIN</div>', -6.87939, 107.61272],
+	['<div style="width: 170px;">POS BESKEM</div>', -6.87333, 107.61254],
+	['<div style="width: 170px;">POS MEKDI DAGO</div>', -6.88497, 107.61344],
+	['<div style="width: 170px;">POS CIWALK</div>', -6.89324, 107.60546],
+	['<div style="width: 170px;">POS GASIBU</div>', -6.89902, 107.61701],
+	['<div style="width: 170px;">POS BORMA</div>', -6.87713, 107.6181],
+	['<div style="width: 170px;">POS MONJU</div>', -6.89343, 107.61855],
+	['<div style="width: 170px;">POS BALTOS</div>', -6.89908, 107.60817]
   ];
 
 
