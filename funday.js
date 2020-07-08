@@ -23,7 +23,7 @@ function initialize() {
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
     ['<div style="width: 170px;">POS SADIKIN</div>', -6.87939, 107.61272, 'img/didit.png'],			
-	['<div style="width: 170px;">POS JEPRUT</div>', -6.889113, 107.608057, 'img/kahimsejken.png'], 
+	['<div style="width: 170px;">POS JEPRUT</div>', -6.888931, 107.608089, 'img/kahimsekjen.png'], 
 	['<div style="width: 170px;">POS MEKDI DAGO</div>', -6.88497, 107.61344, 'img/almyra.png'],	//
 	['<div style="width: 170px;">POS SPBU PERTAMINA</div>', -6.890169, 107.613247, 'img/rojap.png'], // 
 	['<div style="width: 170px;">POS TAMAN FILM</div>', -6.898686, 107.607746, 'img/naradita.png'], 
