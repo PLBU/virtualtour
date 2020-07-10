@@ -22,15 +22,15 @@ function initialize() {
   // Add Locations HERE (Can also add icons on each marker, to be added)
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
-    ['<div style="width: 170px;">https://meet.google.com/hxe-cwzp-ycn</div>', -6.87939, 107.61272, 'img/didit.png'],			
-	['<div style="width: 170px;">https://meet.google.com/suj-aywh-jis</div>', -6.888931, 107.608089, 'img/kahimsekjen.png'], 
-	['<div style="width: 170px;">https://meet.google.com/nme-ftmh-aye</div>', -6.88497, 107.61344, 'img/almyra.png'],	
-	['<div style="width: 170px;">https://meet.google.com/pai-peri-daa</div>', -6.890169, 107.613247, 'img/rojap.png'], 
-	['<div style="width: 170px;">https://meet.google.com/vjp-sbhx-buk</div>', -6.898686, 107.607746, 'img/naradita.png'], 
-	['<div style="width: 170px;">https://meet.google.com/taa-druk-dak</div>', -6.885179, 107.610161, 'img/ridwan.png'], 
-	['<div style="width: 170px;">https://meet.google.com/kga-vaff-ekj</div>', -6.89343, 107.61855, 'img/farabi.png'], 
-	['<div style="width: 170px;">https://meet.google.com/dne-bfov-fht</div>', -6.898178, 107.613641, 'img/juro.png'],
-	['<div style="width: 170px;">https://meet.google.com/rej-gujz-eep</div>', -6.898794, 107.609274, 'img/garda.png']
+    ['<div style="width: 170px;">https://meet.google.com/hxe-cwzp-ycn</div>', -6.87939, 107.61272, 'img/daWRpdA.png'],			
+	['<div style="width: 170px;">https://meet.google.com/suj-aywh-jis</div>', -6.888931, 107.608089, 'img/kYWhpbXNla2plbg.png'], 
+	['<div style="width: 170px;">https://meet.google.com/nme-ftmh-aye</div>', -6.88497, 107.61344, 'img/abG15cmE.png'],	
+	['<div style="width: 170px;">https://meet.google.com/pai-peri-daa</div>', -6.890169, 107.613247, 'img/roamFw.png'], 
+	['<div style="width: 170px;">https://meet.google.com/vjp-sbhx-buk</div>', -6.898686, 107.607746, 'img/nYXJhZGl0YQ.png'], 
+	['<div style="width: 170px;">https://meet.google.com/taa-druk-dak</div>', -6.885179, 107.610161, 'img/riZHdhbg.png'], 
+	['<div style="width: 170px;">https://meet.google.com/kga-vaff-ekj</div>', -6.89343, 107.61855, 'img/fYXJhYmk.png'], 
+	['<div style="width: 170px;">https://meet.google.com/dne-bfov-fht</div>', -6.898178, 107.613641, 'img/jdXJv.png'],
+	['<div style="width: 170px;">https://meet.google.com/rej-gujz-eep</div>', -6.898794, 107.609274, 'img/gYXJkYQ.png']
   ];
 
 
