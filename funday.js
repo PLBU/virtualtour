@@ -25,7 +25,7 @@ function initialize() {
     ['<div style="width: 170px;">https://meet.google.com/hxe-cwzp-ycn</div>', -6.87939, 107.61272, 'img/didit.png'],			
 	['<div style="width: 170px;">https://meet.google.com/suj-aywh-jis</div>', -6.888931, 107.608089, 'img/kahimsekjen.png'], 
 	['<div style="width: 170px;">https://meet.google.com/nme-ftmh-aye</div>', -6.88497, 107.61344, 'img/almyra.png'],	
-	['<div style="width: 170px;">https://meet.google.com/hxe-cwzp-ycn</div>', -6.890169, 107.613247, 'img/rojap.png'], 
+	['<div style="width: 170px;">https://meet.google.com/pai-peri-daa</div>', -6.890169, 107.613247, 'img/rojap.png'], 
 	['<div style="width: 170px;">https://meet.google.com/vjp-sbhx-buk</div>', -6.898686, 107.607746, 'img/naradita.png'], 
 	['<div style="width: 170px;">https://meet.google.com/taa-druk-dak</div>', -6.885179, 107.610161, 'img/ridwan.png'], 
 	['<div style="width: 170px;">https://meet.google.com/kga-vaff-ekj</div>', -6.89343, 107.61855, 'img/farabi.png'], 
