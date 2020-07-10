@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -29,6 +30,7 @@ body {
 .title {
   margin-left: 20px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .title:hover ~ .decoration {
@@ -90,7 +92,7 @@ ol.instruction {
 }
 
 ol.instruction li {
-  margin: 5px;
+  margin: 8px;
 }
 
 
