@@ -19,44 +19,43 @@ function initialize() {
   var marker, i;
   var markers = [];
   
-  // Add Locations HERE (Can also add icons on each marker, to be added)
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
 	// Paris
-	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><b>Ini merupakan keterangan</b>', -6.87939, 107.61272], //sadikin
-	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><b>Ini merupakan keterangan</b>', -6.89343, 107.61855], //monju
-	['<div style="width: 170px;">POS MENARA EIFFEL</div>', 48.857931, 2.295467],
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', 48.855454, 2.301249],
+	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.87939, 107.61272, "img/portalzzz.png"], //sadikin
+	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.89343, 107.61855, "img/portalzzz.png"], //monju
+	['<div style="width: 170px;">POS MENARA EIFFEL</div>', 48.857931, 2.295467, "img/ldXRlaw.png"],
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', 48.855454, 2.301249, "img/portalzzz.png"],
 	
 	// Italy
-	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><b>Ini merupakan keterangan</b>', -6.888931, 107.608089], //jeprut
-	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><b>Ini merupakan keterangan</b>', -6.898178, 107.613641], //upnormal
-	['<div style="width: 170px;">POS MENARA PISA</div>', 43.722897, 10.396467], 
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', 43.7215745, 10.3971504],
+	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.888931, 107.608089, "img/portalzzz.png"], //jeprut
+	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898178, 107.613641, "img/portalzzz.png"], //upnormal
+	['<div style="width: 170px;">POS MENARA PISA</div>', 43.722897, 10.396467, "img/ldXRlaw.png"], 
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', 43.7215745, 10.3971504, "img/portalzzz.png"],
 	
 	// Jogja
-	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><b>Ini merupakan keterangan</b>', -6.88497, 107.61344], //mcd dago
-	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><b>Ini merupakan keterangan</b>', -6.898794, 107.609274], //baltos 
-	['<div style="width: 170px;">POS BOROBUDUR</div>', -7.607521, 110.203681], 
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', -7.606929, 110.202715],
+	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.88497, 107.61344, "img/portalzzz.png"], //mcd dago
+	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898794, 107.609274, "img/portalzzz.png"], //baltos 
+	['<div style="width: 170px;">POS BOROBUDUR</div>', -7.607521, 110.203681, "img/ldXRlaw.png"], 
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', -7.606929, 110.202715, "img/portalzzz.png"],
 	
 	// Jakarta
-	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><b>Ini merupakan keterangan</b>', -6.890169, 107.613247], //spbu
-	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><b>Ini merupakan keterangan</b>', -6.876435, 107.611753], //angcis
-	['<div style="width: 170px;">POS MONAS</div>', -6.173288, 106.827659],
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', -6.171659, 106.826946],
+	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.890169, 107.613247, "img/portalzzz.png"], //spbu
+	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.876435, 107.611753, "img/portalzzz.png"], //angcis
+	['<div style="width: 170px;">POS MONAS</div>', -6.173288, 106.827659, "img/ldXRlaw.png"],
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', -6.171659, 106.826946, "img/portalzzz.png"],
 	
 	// Rio
-	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><b>Ini merupakan keterangan</b>', -6.898686, 107.607746], //taman film
-	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><b>Ini merupakan keterangan</b>', -6.879173, 107.620036], //kanayakan
-	['<div style="width: 170px;">POS JESUS</div>', -22.951827, -43.210497],
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', -22.951940, -43.210898],
+	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898686, 107.607746, "img/portalzzz.png"], //taman film
+	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.879173, 107.620036, "img/portalzzz.png"], //kanayakan
+	['<div style="width: 170px;">POS JESUS</div>', -22.951827, -43.210497, "img/ldXRlaw.png"],
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', -22.951940, -43.210898, "img/portalzzz.png"],
 	
 	// Kuala Lumpur
-	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><b>Ini merupakan keterangan</b>', -6.885179, 107.610161], //baksil
-	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><b>Ini merupakan keterangan</b>', -6.878426, 107.609397], //sangkuriang 	
-	['<div style="width: 170px;">POS PETRONAS</div>', 3.158228, 101.711308],
-	['<button onclick="goBack()">BACK TO BANDUNG</button>', 3.158845, 101.709261]
+	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.885179, 107.610161, "img/portalzzz.png"], //baksil
+	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.878426, 107.609397, "img/portalzzz.png"], //sangkuriang 	
+	['<div style="width: 170px;">POS PETRONAS</div>', 3.158228, 101.711308, "img/ldXRlaw.png"],
+	['<button onclick="goBack()">BACK TO BANDUNG</button>', 3.158845, 101.709261, "img/portalzzz.png"]
   ];
 
 
@@ -67,6 +66,7 @@ function initialize() {
       visible: false,
       zIndex: 999,
       zoomControl: false,
+	  icon: locations[i][3]
     });
 
     google.maps.event.addListener(marker, 'mouseover', (function(marker, i) {
