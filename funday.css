@@ -89,14 +89,10 @@ body {
 ol.instruction {
   margin-left: 40px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 ol.instruction li {
   margin: 8px;
 }
-
-.qung {
-	color: #eb7434;
-}
-
 

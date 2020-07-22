@@ -22,39 +22,39 @@ function initialize() {
   // [Marker's caption, lattitude, longitude, icon location]
   var locations = [
 	// Paris
-	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.87939, 107.61272, "img/portalzzz.png"], //sadikin
-	['<button onclick="toParis()">EKSTERNAL GOES TO FRANCE</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.89343, 107.61855, "img/portalzzz.png"], //monju
-	['<div style="width: 170px;">POS MENARA EIFFEL</div>', 48.857931, 2.295467, "img/ldXRlaw.png"],
+	['<div style="text-align:center"><button onclick="toParis()">MASUK PORTAL</button><br>Cari menara trademark Prancis</div>', -6.87939, 107.61272, "img/portalzzz.png"], //sadikin
+	['<div style="text-align:center"><button onclick="toParis()">MASUK PORTAL</button><br>Cari menara trademark Prancis</div>', -6.89343, 107.61855, "img/portalzzz.png"], //monju
+	['<div style="width: 170px;">https://meet.google.com/tjx-tjma-tps</div>', 48.857931, 2.295467, "img/racmFz.png"],
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', 48.855454, 2.301249, "img/portalzzz.png"],
 	
 	// Italy
-	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.888931, 107.608089, "img/portalzzz.png"], //jeprut
-	['<button onclick="toPisa()">EKSTERNAL GOES TO ITALY</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898178, 107.613641, "img/portalzzz.png"], //upnormal
-	['<div style="width: 170px;">POS MENARA PISA</div>', 43.722897, 10.396467, "img/ldXRlaw.png"], 
+	['<div style="text-align:center"><button onclick="toPisa()">MASUK PORTAL</button><br>Carilah menara yang agak mereng</div>', -6.888931, 107.608089, "img/portalzzz.png"], //jeprut
+	['<div style="text-align:center"><button onclick="toPisa()">MASUK PORTAL</button><br>Carilah menara yang agak mereng</div>', -6.898178, 107.613641, "img/portalzzz.png"], //upnormal
+	['<div style="width: 170px;">https://meet.google.com/ohd-vong-mhf</div>', 43.722897, 10.396467, "img/inZHJh.png"], 
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', 43.7215745, 10.3971504, "img/portalzzz.png"],
 	
 	// Jogja
-	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.88497, 107.61344, "img/portalzzz.png"], //mcd dago
-	['<button onclick="toJogja()">EKSTERNAL GOES TO JOGJA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898794, 107.609274, "img/portalzzz.png"], //baltos 
-	['<div style="width: 170px;">POS BOROBUDUR</div>', -7.607521, 110.203681, "img/ldXRlaw.png"], 
+	['<div style="text-align:center"><button onclick="toJogja()">MASUK PORTAL</button><br>Intinya cari ae lah di sekitar candinya</div>', -6.88497, 107.61344, "img/portalzzz.png"], //mcd dago
+	['<div style="text-align:center"><button onclick="toJogja()">MASUK PORTAL</button><br>Intinya cari ae lah di sekitar candinya</div>', -6.898794, 107.609274, "img/portalzzz.png"], //baltos 
+	['<div style="width: 170px;">https://meet.google.com/gjo-agmy-xku</div>', -7.607521, 110.203681, "img/ferZGluYQ.png"], 
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', -7.606929, 110.202715, "img/portalzzz.png"],
 	
 	// Jakarta
-	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.890169, 107.613247, "img/portalzzz.png"], //spbu
-	['<button onclick="toJakarta()">EKSTERNAL GOES TO JAKARTA</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.876435, 107.611753, "img/portalzzz.png"], //angcis
-	['<div style="width: 170px;">POS MONAS</div>', -6.173288, 106.827659, "img/ldXRlaw.png"],
+	['<div style="text-align:center"><button onclick="toJakarta()">MASUK PORTAL</button><br>Ke Monas gih, mumpung ga macet</div>', -6.890169, 107.613247, "img/portalzzz.png"], //spbu
+	['<div style="text-align:center"><button onclick="toJakarta()">MASUK PORTAL</button><br>Ke Monas gih, mumpung ga macet</div>', -6.876435, 107.611753, "img/portalzzz.png"], //angcis
+	['<div style="width: 170px;">https://meet.google.com/rqa-hoeq-ufb</div>', -6.173288, 106.827659, "img/laWE.png"],
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', -6.171659, 106.826946, "img/portalzzz.png"],
 	
 	// Rio
-	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.898686, 107.607746, "img/portalzzz.png"], //taman film
-	['<button onclick="toRio()">EKSTERNAL GOES TO RIO</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.879173, 107.620036, "img/portalzzz.png"], //kanayakan
-	['<div style="width: 170px;">POS JESUS</div>', -22.951827, -43.210497, "img/ldXRlaw.png"],
+	['<div style="text-align:center"><button onclick="toRio()">MASUK PORTAL</button><br>Dekati Tuhan, niscaya Dia mendekatimu</div>', -6.898686, 107.607746, "img/portalzzz.png"], //taman film
+	['<div style="text-align:center"><button onclick="toRio()">MASUK PORTAL</button><br>Dekati Tuhan, niscaya Dia mendekatimu</div>', -6.879173, 107.620036, "img/portalzzz.png"], //kanayakan
+	['<div style="width: 170px;">https://meet.google.com/jcz-wuka-aic</div>', -22.951827, -43.210497, "img/mudGU.png"],
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', -22.951940, -43.210898, "img/portalzzz.png"],
 	
 	// Kuala Lumpur
-	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.885179, 107.610161, "img/portalzzz.png"], //baksil
-	['<button onclick="toKualaLumpur()">EKSTERNAL GOES TO KUALA LUMPUR</button><br><div style="text-align:center">Ini merupakan keterangan</div>', -6.878426, 107.609397, "img/portalzzz.png"], //sangkuriang 	
-	['<div style="width: 170px;">POS PETRONAS</div>', 3.158228, 101.711308, "img/ldXRlaw.png"],
+	['<div style="text-align:center"><button onclick="toKualaLumpur()">MASUK PORTAL</button><br>Menaranya udh kek biji ae barengan mulu</div>', -6.885179, 107.610161, "img/portalzzz.png"], //baksil
+	['<div style="text-align:center"><button onclick="toKualaLumpur()">MASUK PORTAL</button><br>Menaranya udh kek biji ae barengan mulu</div>', -6.878426, 107.609397, "img/portalzzz.png"], //sangkuriang 	
+	['<div style="width: 170px;">https://meet.google.com/obz-kqne-ivh</div>', 3.158228, 101.711308, "img/hacnJ5.png"],
 	['<button onclick="goBack()">BACK TO BANDUNG</button>', 3.158845, 101.709261, "img/portalzzz.png"]
   ];
 
@@ -85,7 +85,6 @@ function initialize() {
 
   pano.setPano('L4WNkSLF-mB52zujd2oR6g');
 }
-
 
 function goBack() {
 	pano.setPano("L4WNkSLF-mB52zujd2oR6g");
