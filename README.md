@@ -1,7 +1,2 @@
-# sundayfunday
-SPARTA's virtual tour
-
-## To Do
-1. Nambahin lokasi
-2. Increase security
-3. Add various logo for marker
+# SPARTA's Virtual Tour
+Simple virtual tour platform made using basic HTML, CSS, JavaScript, and Google Maps Street View API
