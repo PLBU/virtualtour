@@ -4,9 +4,8 @@ var panoramaService;
 var streetView;
  
 function initialize() {
-	
   var panoOptions = {
-    pano: 'L4WNkSLF-mB52zujd2oR6g',
+    pano: 'jfqMAcs2sI2wf2avD9kGmA',
     pov: {
       heading: 0,
       pitch: 0
@@ -83,11 +82,13 @@ function initialize() {
     markers[i].setMap(pano);
   }
 
-  pano.setPano('L4WNkSLF-mB52zujd2oR6g');
+  pano.setPano('jfqMAcs2sI2wf2avD9kGmA');
+
+  google.maps.event.addDomListener(window, 'load', initialize);
 }
 
 function goBack() {
-	pano.setPano("L4WNkSLF-mB52zujd2oR6g");
+	pano.setPano("jfqMAcs2sI2wf2avD9kGmA");
 }
 
 function toParis() {
@@ -113,5 +114,3 @@ function toRio() {
 function toKualaLumpur() {
 	pano.setPano("l5GdBeZBIys3jKbp4ijn4w");
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
