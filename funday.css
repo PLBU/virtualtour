@@ -28,13 +28,14 @@ body {
 }
 
 .title {
+  margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
 .title:hover ~ .decoration {
-  width: 40%;
+  width: 45%;
 }
 
 .decoration {
@@ -58,28 +59,31 @@ body {
 }
 
 #links {
+  position: absolute;
   margin-left: 20px;
+  bottom: 20px;
   display: flex;
   list-style: none;
-  margin-top: 30px;
+  z-index: 10;
 }
 
 .link-item a {
   text-decoration: none;
   margin-right: 10px;
-  color: #e9b405;
+  margin-left: 10px;
+  color: #FFC300;
 }
 
 .link-item a:hover {
-  color: #FFC300;
+  color: #917723;
 }
 
 .logo {
   position: absolute;
   display: flex;
-  width: 100%;
+  right: 20px;
   bottom: 20px;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .logo img {
@@ -89,7 +93,7 @@ body {
 ol.instruction {
   margin-left: 40px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 100px;
 }
 
 ol.instruction li {
